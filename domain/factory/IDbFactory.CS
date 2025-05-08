@@ -8,5 +8,7 @@ public interface IDbFactory
 {
     IPaisRepository CrearPaisRepository();
     // IProductoRepository CrearProductoRepository();
+
+    ITerceroRepository CrearTerceroRepository();
     
 }

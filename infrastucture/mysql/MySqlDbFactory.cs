@@ -1,6 +1,7 @@
 using sgi.domain.factory;
 using sgi.domain.ports;
 using sgi.infrastructure.repositories;
+using sgi.infrastucture.repositories;
 
 namespace sgi.infrastructure.mysql;
 
@@ -23,6 +24,10 @@ public class MySqlDbFactory : IDbFactory
     //     return new ProductoRepository(_connectionString);
     // }
 
+    public ITerceroRepository CrearTerceroRepository()
+    {
+        return new TerceroRepository(_connectionString);
+    }
 
 
 }   
