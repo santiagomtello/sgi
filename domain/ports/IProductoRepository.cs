@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using sgi.domain.entities;
 
-namespace MiAppHexagonal.Domain.Ports
+namespace sgi.domain.ports
 {
     public interface IProductoRepository : IGenericRepository<Producto>
     {

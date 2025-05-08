@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MiAppHexagonal.Domain.Ports
+namespace sgi.domain.ports
 {
     public interface IGenericRepository<T>
     {

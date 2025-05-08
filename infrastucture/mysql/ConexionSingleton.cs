@@ -1,6 +1,6 @@
 using MySql.Data.MySqlClient;
 
-namespace sgi_app.infrastructure.mysql;
+namespace sgi.infrastructure.mysql;
 
 public class ConexionSingleton
 {

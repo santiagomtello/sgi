@@ -1,11 +1,12 @@
 using System;
-using MiAppHexagonal.Domain.Ports;
+using sgi.domain.entities;
+using sgi.domain.ports;
 
-namespace MiAppHexagonal.Domain.Factory;
+namespace sgi.domain.factory;
 
 public interface IDbFactory
 {
-    IClienteRepository CrearClienteRepository();
-    IProductoRepository CrearProductoRepository();
+    IPaisRepository CrearPaisRepository();
+    // IProductoRepository CrearProductoRepository();
     
 }
