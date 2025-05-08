@@ -1,6 +1,6 @@
-using sgi_app.domain.factory;
+using sgi.domain.factory;
 
-namespace sgi_app.infrastructure.mysql;
+namespace sgi.infrastructure.mysql;
 
 public class ConnDbFactory : IDbFactory
 {
