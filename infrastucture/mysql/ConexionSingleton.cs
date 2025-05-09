@@ -1,12 +1,12 @@
 using MySql.Data.MySqlClient;
 
-namespace sgi_app.infrastructure.mysql;
+namespace sgi.infrastructure.mysql;
 
 public class ConexionSingleton
 {
-    private static ConexionSingleton? _instancia;
+    private static ConexionSingleton _instancia;
     private readonly string _connectionString;
-    private MySqlConnection? _conexion;
+    private MySqlConnection _conexion;
     private ConexionSingleton(string connectionString)
     {
         _connectionString = connectionString;
