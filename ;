@@ -1,0 +1,5 @@
+merge release
+#
+# Write a message for tag:
+#   v1.0.0
+# Lines starting with '#' will be ignored.
