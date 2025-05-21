@@ -9,13 +9,13 @@ namespace sgi.domain.entities
     {
         public int Id { get; set; }
 
-    public int FactId { get; set; }
-    public string ProductoId { get; set; }
-    public int Cantidad { get; set; }
-    public double Valor { get; set; }
+        public int FactId { get; set; }
+        public string ProductoId { get; set; }
+        public int Cantidad { get; set; }
+        public double Valor { get; set; }
 
-    public Venta Venta { get; set; }
+        public Venta Venta { get; set; }
 
-    public Producto Producto { get; set; }
+        public Producto Producto { get; set; }
     }
 }

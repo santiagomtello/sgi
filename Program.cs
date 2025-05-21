@@ -2,13 +2,13 @@
 using sgi.domain.entities;
 using sgi.domain.factory;
 using sgi.infrastructure.mysql;
-using sgi.infrastructure.repositories;
 using sgi.application.ui.menus;
 
 
 string connStr = "server=localhost;database=empresadb;user=root;password=2512;";
 IDbFactory factory = new MySqlDbFactory(connStr);
 var terceroService = new TerceroService(factory.CrearTerceroRepository());
+var clienteService = new ClienteService(factory.CrearClienteRepository());
 
 
 while (true)
@@ -25,6 +25,8 @@ while (true)
     switch (opcion)
     {
         case "1":
+            var menuVenta = new MenuVenta();
+            menuVenta.MostrarMenuVenta();
 
             break;
         case "2":
@@ -38,6 +40,8 @@ while (true)
             menuTerceros.Menu1();
             break;
         case "5":
+            var menuProductos = new MenuProductos();
+            menuProductos.MenuProducto();
             break;
         case "0":
             return;

@@ -7,8 +7,7 @@ namespace sgi.domain.entities
 {
     public class Pais
     {
-        public int Id { get; set; }
-    public string Nombre { get; set; }
-
+        public int Id { get; set; } // ID autoincremental
+        public string Nombre { get; set; }
     }
 }

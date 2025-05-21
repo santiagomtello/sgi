@@ -2,7 +2,7 @@ using System;
 using sgi.domain.entities;
 namespace sgi.domain.ports;
 
-public interface ITerceroRepository : IGenericRepository<Tercero>
+public interface IClienteRepository : IGenericRepository<Cliente>
 {
 
 }

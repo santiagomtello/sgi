@@ -6,9 +6,11 @@ namespace sgi.domain.factory;
 
 public interface IDbFactory
 {
-    IPaisRepository CrearPaisRepository();
-    // IProductoRepository CrearProductoRepository();
 
     ITerceroRepository CrearTerceroRepository();
+    IVentaRepository CrearVentaRepository();
+    IClienteRepository CrearClienteRepository();
+    IEmpleadoRepository CrearEmpleadoRepository();
+    IProductoRepository CrearProductoRepository();
     
 }

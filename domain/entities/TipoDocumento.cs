@@ -7,7 +7,7 @@ namespace sgi.domain.entities
 {
     public class TipoDocumento
     {
-    public int Id { get; set; }
-    public string Descripcion { get; set; }
+        public int Id { get; set; } // ID autoincremental
+        public string Descripcion { get; set; }
     }
 }
